@@ -15,7 +15,7 @@ def interpolate(image1, image2, steps):
 def create_gif(images, steps, gif_name):
     """Create a gif from a list of images."""
     # Load the images
-    images_cv = [cv2.imread(image).astype(np.float) for image in images]
+    images_cv = [cv2.imread(image).astype(float) for image in images]
 
     # make sure all images are the same size
     assert all(image.shape == images_cv[0].shape for image in images_cv), "Images must be the same shape."
