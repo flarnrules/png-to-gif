@@ -1,0 +1,4 @@
+# Some scripts for CLI to help speed up the process
+
+mkdir /pngs/<newfolder>
+cp <target> filename1 filename2 /pngs/<newfolder>
