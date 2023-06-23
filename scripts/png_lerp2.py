@@ -25,7 +25,7 @@ def create_gif(images, steps, gif_name):
     frames[0].save(gif_name, save_all=True, append_images=frames[1:], loop=0, duration=100, transparency=0, disposal=2)
 
 # Specify the directory containing the images
-image_dir = '../pngs/bull-bear-lerp'  # Go up one level from the scripts folder, then into pngs/blockchains
+image_dir = '../pngs/hotdog-zoom'  # Go up one level from the scripts folder, then into pngs/blockchains
 
 # Get the list of image files in the directory
 images = sorted([os.path.join(image_dir, f) for f in os.listdir(image_dir) if f.endswith('.png')])
